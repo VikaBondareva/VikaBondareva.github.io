@@ -1,0 +1,37 @@
+.menu {
+	display: flex;
+    list-style: none;
+}
+.menu_smal{
+	
+    font-size: 14px;
+}
+.menu__item {
+	padding: 3px;
+    margin-right: 10px;
+}
+
+.menu__href{
+	text-decoration: none;
+	color: #2b1e1e;
+}
+.menu__item:hover{
+	background: #5F9793FF;
+}
+.menu__href_orange{
+	color: #862712FF
+}
+.menu__href_current{
+	font-weight: bold;
+}
+.menu__href_white{
+	color: white;
+}
+.menu__item_border{
+	 border-right: 1px solid;
+	padding-right:  10px;
+}
+
+.menu__icon{
+	margin-right: 5px;
+}

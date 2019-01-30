@@ -1,0 +1,43 @@
+.main{
+	display: grid;
+    grid-template-areas: "header header" "article aside";
+    grid-template-rows: 50px 1fr;
+    grid-template-columns: 1fr 0.4fr;
+    grid-gap: 0 10px;
+}
+.page__main{
+	margin-left: 50px;
+	margin-right: 40px;
+}
+.main__menu{
+	 margin-left: 50px;
+}
+.main__nav{
+	grid-area: header;
+	border-bottom: 1px solid;
+}
+.main__article {
+	grid-area: article;
+}
+.aside{
+    background: #e4dfdf;
+}
+.main__aside {
+	padding: 10px 15px;
+    grid-area: aside;
+}
+.burger{
+    font-size: 1.5rem;
+    color: #464343;
+    background: #00b8ff;
+    padding: 0 5px;
+}
+.sidebar__burger{
+	position: absolute;
+    display: none;
+    right: 0;
+    top: 137px;
+}
+.check {
+    display: none;
+}
